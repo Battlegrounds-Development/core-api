@@ -68,5 +68,5 @@ public final class BGSApi {
         }
         return registration.getProvider();
     }
-    
+
 }
