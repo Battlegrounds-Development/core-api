@@ -58,7 +58,6 @@ public final class BGSApi {
         return getService(CombatStatsService.class);
     }
 
-
     /**
      * Internal helper to fetch registered services from Bukkit.
      */
