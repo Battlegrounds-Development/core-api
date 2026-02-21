@@ -25,6 +25,7 @@ public final class BGSApi {
         return getService(TaskService.class);
     }
 
+
     /**
      * @return The service for fluent event subscriptions.
      */
