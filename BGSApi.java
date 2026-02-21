@@ -46,14 +46,23 @@ public final class BGSApi {
         return getService(AbilityService.class);
     }
 
+    /**
+     * @return The service for using namespaces
+     */
     public static NamespaceService namespaces() {
         return getService(NamespaceService.class);
     }
 
+    /**
+     * @return The service for registering attributes to players
+     */
     public static AttributeService attribute() {
         return getService(AttributeService.class);
     }
 
+    /**
+     * @return The service for adjusting source damage and damage output by mob and weapon type
+     */
     public static CombatStatsService combat() {
         return getService(CombatStatsService.class);
     }
