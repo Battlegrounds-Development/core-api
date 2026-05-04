@@ -6,6 +6,7 @@ import me.remag501.core.api.combat.CombatStatsService;
 import me.remag501.core.api.command.CommandService;
 import me.remag501.core.api.event.EventService;
 import me.remag501.core.api.namespace.NamespaceService;
+import me.remag501.core.api.oraxen.OraxenService;
 import me.remag501.core.api.task.TaskService;
 import org.bukkit.Bukkit;
 
@@ -66,6 +67,13 @@ public final class BGSApi {
      */
     public static CombatStatsService combat() {
         return getService(CombatStatsService.class);
+    }
+
+        /**
+        * @return The service for interacting with Oraxen items and IDs
+        */
+    public static OraxenService oraxen() {
+        return getService(OraxenService.class);
     }
 
     /**
